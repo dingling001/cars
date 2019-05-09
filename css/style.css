@@ -399,7 +399,365 @@
     font-size: 14px;
 
 }
-.w_r{
+
+.w_r {
     color: #666;
     font-size: 10px;
+}
+
+/*-----------页面四-------------*/
+.list {
+    background-color: #fff;
+}
+
+.list_item {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+    padding: 17px 0 10px 0;
+    border-bottom: 1px solid #F3F5F7;
+}
+
+.list_item .list_img {
+    width: 122px;
+    flex-shrink: 0;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.list_item .list_img img {
+    width: 100%;
+}
+
+.list_title {
+    color: #222;
+    font-size: 14px;
+    padding: 5px 0 10px 0;
+}
+
+.list_tel {
+    color: #999999;
+    font-size: 11px;
+}
+
+.list_name {
+    font-size: 12px;
+    color: #222;
+}
+
+/*-----------页面五-------------*/
+
+.a_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: #fff;
+    margin-top: 1px;
+}
+
+.a_left {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.a_left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.a_right {
+    color: #666666;
+    font-size: 16px;
+}
+
+.appoint {
+    margin: 10px auto;
+}
+
+.appoint .iconfont {
+    color: #3FB26D;
+}
+
+.appoint .w_r {
+    font-size: 16px;
+}
+
+.tips {
+    width: 93%;
+    margin: 0 auto;
+    font-size: 11px;
+    color: #3FB26D;
+}
+
+.a_btn {
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 15px;
+    background: rgba(63, 178, 109, 1);
+    box-shadow: 0px 4px 9px 0px rgba(53, 167, 99, 0.36);
+    border-radius: 3px;
+    width: 93%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/*-----------页面六-------------*/
+
+.info_box {
+    position: relative;
+}
+
+.m_top {
+    height: 136px;
+    background-color: #3FB26D;
+}
+
+.m_info {
+    background-color: #fff;
+    box-shadow: 0px 5px 12px 0px rgba(218, 218, 218, 0.42);
+    border-radius: 5px;
+    margin: -80px auto 0 auto;
+    width: 93%;
+
+}
+
+.userinfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /*position: relative;*/
+}
+
+.userinfo img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 36px;
+    z-index: 10;
+}
+
+.m_name {
+    padding: 50px 0 0 0;
+}
+
+.m_tel {
+    font-size: 12px;
+    color: #666;
+}
+
+.user_account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.u_item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #CBCBCB;
+    flex-direction: column;
+}
+
+.u_item:last-child {
+    border: 0;
+}
+
+.u_item .u_money {
+    color: #FF9D45;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.u_text {
+    color: #222222;
+    font-size: 12px;
+}
+
+.u_text .iconfont {
+    margin-right: 5px;
+}
+
+.my {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 13px auto;
+    padding: 15px 0;
+}
+
+.m_item {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #222222;
+    font-size: 13px;
+
+}
+
+.m_item .iconfont {
+    color: #3FB26D;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+/*-----------页面七-------------*/
+
+.comment_box {
+    position: relative;
+    height: 90vh;
+    margin-top: 5px;
+}
+
+.comment_box .left {
+    position: absolute;
+    width: 25%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.comment_box .left a {
+    font-size: 15px;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.comment_box .left .c_active {
+    background-color: #F4FCF7;
+    font-weight: bold;
+}
+
+.comment_box .right {
+    width: 75%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.r_list {
+    margin: 8px 10px;
+}
+
+.r_list .car_item {
+    background: #fff;
+    box-shadow: 0px 3px 16px 0px rgba(171, 171, 171, 0.2);
+    border-radius: 3px;
+    padding: 0 5px;
+    margin-bottom:11px;
+}
+
+.car_item .r_top {
+    padding: 14px 0;
+    font-size: 13px;
+    color: #222222;
+}
+
+.car_item .r_top .r_car {
+    color: #3FB26D;
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.r_address {
+    font-size: 12px;
+    color: #222222;
+}
+
+.r_address .iconfont {
+    color: #34A5D4;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.score {
+    font-size: 10px;
+    color: #FA621F;
+}
+
+.score .iconfont {
+    font-size: 10px;
+}
+
+.r_content {
+    font-size: 12px;
+    color: #333;
+    margin: 3px 0;
+    line-height: 20px;
+}
+
+.r_imgsbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.r_imgs {
+    width: 49%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.r_imgs img {
+    width: 100%;
+}
+
+.target_box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #F4F5F7;
+    padding: 10px 2px;
+}
+
+.target_box .target {
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.time {
+    color: #3FB26D;
+    background-color: #F4FCF7;
+}
+
+.again {
+    color: #808DD0;
+    background-color: #EFF1FB;
+}
+.r_time{
+    text-align: right;
+    padding: 10px 2px;
+    font-size: 11px;
+    color: #666666;
 }
