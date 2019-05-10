@@ -43,9 +43,10 @@
         <div class="w_item">
             <div class="iconfont iconziyuan23"></div>
             <span class="w_m">
-                <select name="">
-                <option value="">请选择到店时间</option>
-            </select>
+                <!--<select name="">-->
+                <!--<option value="">请选择到店时间</option>-->
+                <!--</select>-->
+           <input type="date" placeholder="请选择到店时间" value="" id="date_info">
             </span>
             <span class="w_r"> ></span>
         </div>
@@ -64,3 +65,13 @@
 </div>
 </body>
 </html>
+<script type="text/javascript">
+    window.onload=function () {
+        var time = new Date();
+        var day = ("0" + time.getDate()).slice(-2);
+        var month = ("0" + (time.getMonth() + 1)).slice(-2);
+        var today = time.getFullYear() + "-" + (month) + "-" + (day)
+        date_info=document.getElementById('date_info')
+        date_info.value=today;    }
+
+</script>
